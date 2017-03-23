@@ -5,7 +5,7 @@
 * To-Do List - A re-written version of Homework Assignment 2, a basic to-do list
 * app that allows users to keep track of certain tasks. And once done with
 * several of those tasks, delete them with a long-press on the item.
-* 
+*
 * Now on React Native! iOS users, welcome too! 😎 (except not really, there's
 * probably a bunch of Android-specific stuff here)
 */
@@ -91,7 +91,6 @@ export default class ToDoList extends Component {
     this.setState({
       dataSource: ds.cloneWithRows(this.state.db),
     });
-    this._storeRows();
   }
   // Display everything!
   render() {
